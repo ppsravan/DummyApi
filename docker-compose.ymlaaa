@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dummyapi:
+    image: ${DOCKER_REGISTRY}dummyapi
+    build:
+      context: .\DummyApi
+      dockerfile: Dockerfile
